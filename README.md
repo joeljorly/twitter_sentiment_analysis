@@ -37,5 +37,5 @@ Create two additional things before you deploy in heroku-
             
             pip Freeze
 
-This project can be viewed at https://twittersentimentanalysis-app.herokuapp.com/
+This project can be viewed at https://twittersentimentanalysisnltk.herokuapp.com/
 

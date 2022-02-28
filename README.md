@@ -8,20 +8,6 @@ Azure Logic Apps is a cloud service. Using Logic Apps defines the workflow at ea
 2. Create an app https://developer.twitter.com/en/apps, from where you can generate credentials like ACCESS_TOKEN,ACCESS_TOKEN_SECRET,CONSUMER_KEY,CONSUMER_SECRET
 
 
-## Project is divided into 3 parts:
-
-1. Twitter_credentials.py- As mentioned in pre-requisits you need to create an app @twitter development to get the necessary credentials for execution of this file.
-
-2. Twitter_sentiment_analysis.py- 
-      - This py file uses OAuth API to fetch tweets from live twitter application.
-      - Used TextBlob one o the concepts of NLP for checking subjectivity and polarity of tweets.
-      - Created Scatter Plot using library seaborn to visualize the relationship between "Subjectivity" and "Polarity" of tweets.
-      - Created Bar graph using library matplotlib to check the imapct of tweets whether it is positive, negative or Neutral.
-      - Built a word chart using library wordcloud to visualize most common words.
-      
-3. Twitter_app.py- This py file will create an API, using library flask , this will basically accept inputs from the user at runtime and generate an output from Twitter_sentiment_analysis.py.
-
-
 ## Deployment In Heroku:
 You just have to create an account in Heroku, connect your github repository with it that you wish to create a server for.
 
